@@ -282,11 +282,92 @@ margin-left: 4px 12px;
   line-height: 180%;
   font-family: "Mulish", sans-serif;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ftur-card h2{
+  text-align: left;
+    color: #1a2d62;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.ftur-card p{
+  text-align: left;
+  color: #4e4e4fbc;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  font-family: "Mulish", sans-serif;
+  margin-top: 10px;
+}
+.img_wrap4{
+  width: 60px;
+  background: #66cc9e82;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+@media screen and (max-width: 1300px) {
+  .carousel-caption h2 {
+    font-size: 65px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width:1200px){
+  .carousel-caption h2 {
+    font-size: 50px;
   }
+  .carousel-caption p { 
+    font-size: 15px;
+    padding: 0px 400px 0 0;
+  }
+  .carousel-caption {
+    top: 7% !important;
+}
+.common-btn {
+
+  margin: 0;
+}
+.counter {
+  min-height: 151px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-caption h2 {
+      font-size: 38px;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .carousel-caption p {
+display: none;  }
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-caption h2 {
+      font-size: 23px;
+  }
+  .common-btn a {
+    padding: 12px;  
+}
+.common-btn a::before {  
+  width: 46px;
+  height: 46px; 
+}
+}
+
+@media screen and (max-width: 500px) {
+.carousel-caption .common-btn{
+  display: none;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption h2 {
+    font-size: 16px;
+}
 }

@@ -7,12 +7,12 @@ const About = () => {
     <>
       <div className="container py-40">
         <div className="row">
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12" data-aos="fade-right">
             <div className="image_wrap">
               <img src={about1} className="img-fluid" />
             </div>
           </div>
-          <div className="col-md-6 col-12 about ">
+          <div className="col-md-6 col-12 about " data-aos="fade-left">
             <h2>
                 Learn New Skills To Go <span>Ahead For Your</span> Career.
             </h2>

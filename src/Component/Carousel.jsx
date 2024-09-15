@@ -51,7 +51,7 @@ const Carousel = () => {
       {/* <div className='banner-overlay'></div> */}
 <div className="carousel-item active">
       <img src={item.img} className="d-block w-100" alt="..." />
-  <div className="carousel-caption d-none d-md-block">
+  <div className="carousel-caption  d-md-block">
  <h2>Better  <span>Learning <br/> Future</span>  Starts <br/> With Penn</h2>
     <p>Some representative placeholder content for the first slide.</p>
     <button className='common-btn'>

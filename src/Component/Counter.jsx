@@ -75,8 +75,8 @@ const Counter = () => {
             </div>
             <div className="row my-5">
                 {count.map((item, index) => (
-                    <div className="col-md-3 col-sm-6" key={index}>
-                        <div className="px-2 counter d-flex gap-2 align-items-center">
+                    <div className="col-md-3 col-sm-6 my-3" key={index}>
+                        <div className="px-2 counter  d-flex gap-2 align-items-center">
                             <div className="img_wrap">
                                 <img src={item.img} className="w-100" alt={item.para} />
                             </div>
