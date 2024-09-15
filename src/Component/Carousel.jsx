@@ -48,11 +48,11 @@ const Carousel = () => {
   {
     carouselImg.map(item => (
       <>
-      <div className='banner-overlay'></div>
+      {/* <div className='banner-overlay'></div> */}
 <div className="carousel-item active">
       <img src={item.img} className="d-block w-100" alt="..." />
   <div className="carousel-caption d-none d-md-block">
-    <h5>{item.heading}</h5>
+ <h2>Better  <span>Learning <br/> Future</span>  Starts <br/> With Penn</h2>
     <p>Some representative placeholder content for the first slide.</p>
     <button className='common-btn'>
       <a href="#" className='d-flex justify-space-between align-item-center px-3' >Explore Courses <i className="bi bi-arrow-right mx-3"></i></a>

@@ -62,18 +62,25 @@
   margin: 10px 0;
 }
 
-.common-btn a{
+.common-btn a {
   text-decoration: none;
-  font-size: 18px;
-  color: #fff;
+  font-size: 16px;
+  color: #1a2d62;
   position: relative;
   padding: 14px;
   z-index: 999;
+  font-weight: 600;
   font-family: "Mulish", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 shadow{
   box-shadow: 0px 0px 150px 0px rgba(78, 67, 250, 0.1) !important;
 
+}
+.common-btn:hover a {
+  color: #fff;
 }
 .border-right{
   border-right: 1px solid #fdfdfd0b;
@@ -246,6 +253,34 @@ margin-left: 4px 12px;
 
     width: 98%;
     margin: 0 auto;
+}
+
+.carousel-caption {
+
+  right: 15% !important;
+  left: 15% !important;
+  text-align: left !important;
+  top: 12% !important;
+}
+
+.carousel-caption h2 {
+  text-align: left;
+  color: #1a2d62;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 77px;
+}
+
+.carousel-caption h2 span {
+  color: #2eca7f !important;
+}
+.carousel-caption  p{
+  text-align: left;
+  color: #454545;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 180%;
+  font-family: "Mulish", sans-serif;
 }
 @keyframes App-logo-spin {
   from {
