@@ -1,15 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Navbar from './Component/Navbar';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import Carousel from './Component/Carousel';
+import QualityCard from './Component/QualityCard';
+import About from './Component/About';
+import Counter from './Component/Counter';
+import Client from './Component/Client';
+import 'swiper/css';
+import Features from './Component/Features';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); 
+  }, []);
   return (
     <div className="App">
-       <div className="container">
-      <h1 className="text-center">Hello, Bootstrap in React!</h1>
-      <button className="btn btn-primary">Click Me</button>
-    </div>
+    <Navbar/>
+    <Carousel/>
+    <QualityCard/>
+      <About/>
+      <Counter/>
+      <Client/>
+      <Features/>
     </div>
   );
 }
