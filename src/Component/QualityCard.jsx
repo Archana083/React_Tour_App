@@ -4,7 +4,7 @@ const QualityCard = () => {
   return (
     <div className='container-fluid mb-5'>
         <div className="row">
-            <div className="col-md-4 col-12  p-5 border-dark qualit-card border-right shadow">
+            <div className="col-md-4 col-12  p-5 border-dark qualit-card border-right shadow mt-sm-2">
                 <h2 className='fs-5 text-left'>Quality Education</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
                 <button className='common-btn'>

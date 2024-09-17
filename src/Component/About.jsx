@@ -7,12 +7,12 @@ const About = () => {
     <>
       <div className="container py-40">
         <div className="row">
-          <div className="col-md-6 col-12" data-aos="fade-right">
+          <div className="col-md-6 col-12 col-98" data-aos="fade-right">
             <div className="image_wrap">
               <img src={about1} className="img-fluid" />
             </div>
           </div>
-          <div className="col-md-6 col-12 about " data-aos="fade-left">
+          <div className="col-md-6 col-12 about col-98 " data-aos="fade-left">
             <h2>
                 Learn New Skills To Go <span>Ahead For Your</span> Career.
             </h2>
@@ -37,7 +37,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className='common-btn mt-5 d-flex justify-start'>
+            <div className='common-btn mt-5 mt-sm-2 d-flex justify-start'>
             <a href="#"  className='text-dark '> Discover More <i className="bi bi-arrow-right mx-2"></i></a>
           </div>
           </div>

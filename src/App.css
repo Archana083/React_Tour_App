@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');.App {
   text-align: center;
 }
-
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -158,7 +160,7 @@ background-size: cover;
   color: #1a2d62;
   font-family: "Mulish", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 28px !important;
 }
 .mission{  
   border: 1px solid #8080804a;
@@ -289,7 +291,9 @@ margin-left: 4px 12px;
     font-weight: 700;
     font-size: 24px;
 }
-
+.w-60{
+  width: 60%;
+}
 .ftur-card p{
   text-align: left;
   color: #4e4e4fbc;
@@ -307,12 +311,92 @@ margin-left: 4px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.course_card{
+  position: relative;
+  background: #fff;
+}
+.cor_img_wrap{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 7%;
+  background: #2eca7f;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  left: 4%;
+}
+
+.overlay h2{
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 5px;
+}
+.card_btn{
+  border: none;
+  background: #2eca7f;
+  padding: 5px 18px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.card_btn a{
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+}
+.card-body p{
+  text-align: left;
+  color: #1a2d62;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.card-body h2{
+  font-size: 17px;
+  color: #1a2d62;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
 
 }
+.card-body i{
+  font-size: 13px;
+  color: #2eca7f;
+}
+.seats{
+  font-weight: 700 !important;
+  font-size: 17px;
+  color: #1a2d62;
+  font-family: "Mulish", sans-serif;
+}
+@media screen and (max-width: 1400px){
+  .about h2 {
+       font-size: 39px;
+}
+.about p {
+  margin: 5px 0;
+}
+}
+
 @media screen and (max-width: 1300px) {
   .carousel-caption h2 {
     font-size: 65px;
   }
+  .mission img {
+    padding: 4px;
+}
 }
 
 @media screen and (max-width:1200px){
@@ -326,6 +410,13 @@ margin-left: 4px 12px;
   .carousel-caption {
     top: 7% !important;
 }
+.mission h2 {
+  font-size: 22px !important;
+  margin-bottom: 0;
+}
+.mission {
+  padding: 6px 17px;
+}
 .common-btn {
 
   margin: 0;
@@ -338,6 +429,16 @@ margin-left: 4px 12px;
 @media screen and (max-width: 1000px) {
   .carousel-caption h2 {
       font-size: 38px;
+  }
+     .about h2 {
+        font-size: 22px;
+    }
+    .col-98{
+      width: 98% !important;
+      margin: 1% auto;
+    }
+    .mission img {
+      padding: 14px;
   }
   
 }

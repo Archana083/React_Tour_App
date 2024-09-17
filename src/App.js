@@ -13,6 +13,7 @@ import Counter from './Component/Counter';
 import Client from './Component/Client';
 import 'swiper/css';
 import Features from './Component/Features';
+import Courses from './Component/Courses';
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
       <Counter/>
       <Client/>
       <Features/>
+  
+      <Courses />
     </div>
   );
 }
