@@ -72,7 +72,7 @@ const courses = [
 
 const Courses = () => {
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <div className="title mt-5 mt-sm-0">
         <h3 className="my-2"> Popular Courses</h3>
         <h2>
@@ -96,21 +96,21 @@ const Courses = () => {
               <p> {item.desc}</p>
               <div className="d-flex justify-space-between align-item-center">
                 <div className="d-flex">
-                  <i class="bi bi-calendar3 me-2"></i>
+                  <i className="bi bi-calendar3 me-2"></i>
                   <h2>{item.lesson}</h2>
                 </div>
                 <div className="d-flex">
-                  <i class="bi bi-alarm mx-2"></i>
+                  <i className="bi bi-alarm mx-2"></i>
                   <h2>{item.time}</h2>
                 </div>
 
                 <div className="d-flex">
-                  <i class="bi bi-star-fill mx-2"></i>
+                  <i className="bi bi-star-fill mx-2"></i>
                   <h2>{item.star}</h2>
                 </div>
               </div>
               <div className="d-flex">
-                <i class="bi bi-table "></i>
+                <i className="bi bi-table "></i>
                 <h2 className="ms-2 seats">{item.seats}</h2>
               </div>
             </div>
@@ -119,6 +119,8 @@ const Courses = () => {
         ))
       }        
       </div>
+
+            <button className="btn  btn-br-radius mx-3 px-5 py-2">View All Course</button>
     </div>
   );
 };

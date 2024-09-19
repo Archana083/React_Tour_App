@@ -14,6 +14,8 @@ import Client from './Component/Client';
 import 'swiper/css';
 import Features from './Component/Features';
 import Courses from './Component/Courses';
+import LearningPlatform from './Component/LearningPlatform';
+import Testimoniols from './Component/Testimoniols';
 
 
 function App() {
@@ -28,9 +30,10 @@ function App() {
       <About/>
       <Counter/>
       <Client/>
-      <Features/>
-  
+      <Features/>  
       <Courses />
+      <LearningPlatform/>
+      <Testimoniols/>      
     </div>
   );
 }

@@ -4,15 +4,15 @@ import banner2 from '../../src/assets/img/banner2.png';
 import banner3 from '../../src/assets/img/banner3.png';
 
 const carouselImg = [
-  {
+  {id:1,
     img: banner1,
     heading:'First slide label',
   },
-  {
+  {id:2,
     img:banner2,
     heading:'2nd slide label',
   },
-  {
+  {id:3,
     img:banner3,
     heading:'3rd slide label',
   }
@@ -49,7 +49,7 @@ const Carousel = () => {
     carouselImg.map(item => (
       <>
       {/* <div className='banner-overlay'></div> */}
-<div className="carousel-item active">
+<div className="carousel-item active" key={item.id}>
       <img src={item.img} className="d-block w-100" alt="..." />
   <div className="carousel-caption  d-md-block">
  <h2>Better  <span>Learning <br/> Future</span>  Starts <br/> With Penn</h2>
